@@ -1,7 +1,57 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+    color: #3c6e71;
+  }
+
 body{
-    background-color: antiquewhite;
-    font-size: 18px;
+    background-color: #ffffff;
+    font-weight: 400;
 }
-p, div{
-    font-size: 18px;
+
+h1{
+    font-size: 2em;
+    font-weight: 400;
 }
+
+p {
+    font-size: 1.25em;
+}
+
+nav {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+}
+
+.copyright-info {
+    font-weight: 100;
+    font-size: 1em;
+    text-align: end;
+}
+
+.picture {
+    width: 240px;
+    height: auto;
+}
+
+a:link { /* unvisited link */
+    color: #3c6e71; }
+a:visited { /* visited link */
+    color: #353535;
+    }
+a:hover { /* mouse over link */
+    color: #d9d9d9;
+    }
+a:active { /* selected link */
+    color: #353535;
+    }
