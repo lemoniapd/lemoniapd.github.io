@@ -2,6 +2,6 @@ body{
     background-color: antiquewhite;
     font-size: 18px;
 }
-p{
+p, div{
     font-size: 18px;
 }
