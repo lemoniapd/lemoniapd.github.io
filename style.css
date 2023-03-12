@@ -35,8 +35,12 @@ nav{
     padding: 1.5em;
 }
 
-nav a:link, nav a:visited, nav a:hover, nav a:active{
+nav a:link, nav a:visited, nav a:active{
     color: #edf6f9;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #ffddd2;
     text-decoration: none;
 }
 
