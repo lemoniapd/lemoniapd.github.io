@@ -14,6 +14,7 @@ h1{
     font-size: 2em;
     font-weight: 400;
     color: #e29578;
+    text-transform: uppercase;
 }
 
 h2, h3, h4, h5, h6{
@@ -32,8 +33,8 @@ p{
 nav{
     color: #edf6f9;
     background-color:#006d77;
-    width: 100%;
-    padding: 1.5em;
+    width: 95%;
+    padding: 1.25em;
 }
 
 nav a:link, nav a:visited, nav a:active{
@@ -53,7 +54,7 @@ iframe {
 
 .paragraph-more-text{
     margin: auto;
-    width: 60%;
+    width: 100%;
     padding: 10px;
     display: inline-block;
     text-align: left;
@@ -117,6 +118,13 @@ a:active { /* selected link */
         display: inline-block;
         text-align: left;
     }
+
+    nav{
+        color: #edf6f9;
+        background-color:#006d77;
+        width: 100%;
+        padding: 1.25em;
+    }
 }
 
 @media
@@ -128,6 +136,13 @@ a:active { /* selected link */
         display: inline-block;
         text-align: left;
     }
+
+    nav{
+        color: #edf6f9;
+        background-color:#006d77;
+        width: 100%;
+        padding: 1.25em;
+    }
 }
 
 @media
@@ -138,5 +153,12 @@ a:active { /* selected link */
         padding: 10px;
         display: inline-block;
         text-align: left;
+    }
+
+    nav{
+        color: #edf6f9;
+        background-color:#006d77;
+        width: 100%;
+        padding: 1.25em;
     }
 }
