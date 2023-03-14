@@ -45,6 +45,12 @@ nav a:hover{
     text-decoration: none;
 }
 
+iframe {
+    width: 240px;
+    height: auto;
+    padding-top: 1em;
+}
+
 .paragraph-more-text{
     margin: auto;
     width: 60%;
@@ -102,7 +108,7 @@ a:active { /* selected link */
     color: #006d77;
     }
 
-    @media
+@media
 (min-width: 576px) {
     .paragraph-more-text{
         margin: auto;
